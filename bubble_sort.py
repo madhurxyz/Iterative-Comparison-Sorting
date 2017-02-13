@@ -1,3 +1,5 @@
+#Best Case: O(n)
+#Worst Case: O(n^2)
 def bubble_sort(array):
     is_sorted = True
     while is_sorted:

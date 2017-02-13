@@ -1,3 +1,5 @@
+#Best Case: O(n)
+#Worst Case: O(n^2)
 def insertion_sort(array):
     for i in range(1, len(array)):
         item = array[i]

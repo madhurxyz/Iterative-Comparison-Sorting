@@ -1,4 +1,7 @@
-def selection_sort(source):
+#Best Case: O(n^2)
+#Worst Case: O(n^2)
+#Theta(n^2)
+def selection_sort(array):
     for i in range(len(array)):
         minimum = min(array[i:])
         min_index = array[i:].index(minimum)
