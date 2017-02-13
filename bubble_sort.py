@@ -6,10 +6,11 @@ def bubble_sort(array):
             if array[i]>array[i+1]:
                 array[i], array[i+1] = array[i+1], array[i]
                 is_sorted = True
-    print array
+    print "\nSorted Array: {}\n".format(array)
     return array
 
 if __name__ == "__main__":
     import random
     array = [random.randint(-1000,1000) for _ in range(100)]
+    print "\nUnsorted Array: {}\n".format(array)
     bubble_sort(array)
